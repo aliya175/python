@@ -1,0 +1,5 @@
+color1=input("Enter a set of colors(space separated):")
+color2=input("Enter a set of colors(space separated):")
+c1=set(color1.split())
+c2=set(color2.split())
+print(c1.difference(c2))
